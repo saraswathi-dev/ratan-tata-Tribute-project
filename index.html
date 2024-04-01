@@ -18,47 +18,55 @@
         #header {
             text-align: center;
             background-color: rgb(70 106 176);
-            margin: 15px;
+            margin: 15px 0px;
             border: 2px solid;
-            border-radius: 2cap;  
+            border-radius: 2cap;
+            color: #e3c90d;
         }
         #parent {
             width: 100%;
-            display: inline-block;  
+            display: inline-block;
         }
 
+        #bg-image {
+            background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Tata_logo.svg/1200px-Tata_logo.svg.png");
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: relative;
+        }
+        #intro-div{
+            background-color: rgb(255 255 255 / 82%);
+        }
         #right {
-            width: calc(100% - 300px);
+            width: calc(100% - 280px);
             float: right;
-            background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Tata_logo.svg/1200px-Tata_logo.svg.png) ;
-            
-            background-size: cover;
             color: black;
-        }   
+        }
 
         #left {
             width: 250px;
             float: left;
         }
 
-        #profile_image
-         {
+        #profile_image {
             border: 2px solid rgba(0, 0, 0, 0);
             padding: 2px;
         }
-        .para
-        {
+
+        .para {
             margin-top: 0px;
         }
-        #biograpy
-        {
+
+        #biograpy {
             border: 1px solid black;
             align-items: end;
             background-color: #f8f9fa;
-            margin: 0.5em 0 0.5em 1em;
-        }   
+        }
     </style>
 </head>
+
 <body id="body">
     <div id="header">
         <header>
@@ -73,49 +81,71 @@
                 </tr>
                 <tr>
                     <td colspan="2"><img id="profile_image"
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/35._ISC-Symposium-Ratan_N._Tata_in_der_Pause-HSGN_028-01812.JPG/220px-35._ISC-Symposium-Ratan_N._Tata_in_der_Pause-HSGN_028-01812.JPG"
-                        alt="image"></td>
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/35._ISC-Symposium-Ratan_N._Tata_in_der_Pause-HSGN_028-01812.JPG/220px-35._ISC-Symposium-Ratan_N._Tata_in_der_Pause-HSGN_028-01812.JPG"
+                            alt="image"></td>
                 </tr>
                 <tr>
-                    <td>Born</td>
+                    <td><b>Born</b></td>
                     <td>28 December 1937 (age 86)</td>
                 </tr>
                 <tr>
-                    <td>Occupation(s)</td>
+                    <td><b>Occupation(s)</b></td>
                     <td>Industrialist and Philanthropist</td>
                 </tr>
             </table>
-            
+
         </div>
         <div id="right">
-            <p class="para">Ratan Naval Tata (born 28 December 1937) is an Indian industrialist, philanthropist and former chairman
-                of Tata Sons. He was a chairman of the Tata Group from 1990 to 2012, and interim chairman from October
-                2016 through February 2017. He continues to head its charitable trusts. In 2008, he received the Padma
-                Vibhushan, the second highest civilian honour in India, after receiving the Padma Bhushan, the third
-                highest civilian honour in 2000.</p>
-            <p class="para">Under his tenure the Tata Group acquired Tetley, Jaguar Land Rover, and Corus, in an attempt to turn Tata
-                from a largely India-centric group into a global business. </p>
-            <p class="para">Tata is also one of the largest philanthropists in the world, having donated around 60–65% of his income
-                to charity.</p>
-            <p class="para">During the 21 years Tata led the Tata Group, revenues grew over 40 times, and profit over 50 times. When
-                he took over the company, sales overwhelmingly comprised commodity sales, but at the end of his tenure,
-                the majority of sales came from brands.</p>
-            <p class="para">He also conceptualized and spearheaded the development of the Tata Nano car, which helped put cars at a
-                price-point within reach of the average Indian consumer.</p>
-            <p class="para">Tata has also invested in multiple companies with his own wealth. He has invested in Snapdeal – one of
-                India's leading e-commerce websites. In January 2016, he invested in Teabox, an online premium Indian
-                Tea seller,and CashKaro.com, a discount coupons and cash-back website.</p>
-            <p class="para">Ratan Tata was the interim chairman of Tata Sons. He continues to head the main two Tata trusts Sir
-                Dorabji Tata and Allied Trusts and Sir Ratan Tata Trust and their allied trusts, with a combined stake
-                of 66% in Tata Sons, Tata group's holding company.</p>
-            <p class="para">He is a member of Prime Minister's 'Council on Trade and Industry' and the 'National Manufacturing
-                Competitiveness Council'. He is on the jury panel of Pritzker Architecture Prize – considered to be one
-                of the world's premier architecture prizes.</p>
-            <p class="para">Tata has also received various state civilian honours like 'Maharashtra Bhushan' in 2006 for his huge
-                work in the public administration in
-            <p class="para">Maharashtra and 'Assam Baibhav' in 2021 for his exceptional contribution towards furthering cancer care
-                in Assam.</p>
+            <div id="bg-image">
+                <div id="intro-div">
+                    <p class="para">Ratan Naval Tata (born 28 December 1937) is an Indian industrialist, philanthropist
+                        and former chairman
+                        of Tata Sons. He was a chairman of the Tata Group from 1990 to 2012, and interim chairman from
+                        October
+                        2016 through February 2017. He continues to head its charitable trusts. In 2008, he received the
+                        Padma
+                        Vibhushan, the second highest civilian honour in India, after receiving the Padma Bhushan, the
+                        third
+                        highest civilian honour in 2000.</p>
+                    <p class="para">Under his tenure the Tata Group acquired Tetley, Jaguar Land Rover, and Corus, in an
+                        attempt to turn Tata
+                        from a largely India-centric group into a global business. </p>
+                    <p class="para">Tata is also one of the largest philanthropists in the world, having donated around
+                        60–65% of his income
+                        to charity.</p>
+                    <p class="para">During the 21 years Tata led the Tata Group, revenues grew over 40 times, and profit
+                        over 50 times. When
+                        he took over the company, sales overwhelmingly comprised commodity sales, but at the end of his
+                        tenure,
+                        the majority of sales came from brands.</p>
+                    <p class="para">He also conceptualized and spearheaded the development of the Tata Nano car, which
+                        helped put cars at a
+                        price-point within reach of the average Indian consumer.</p>
+                    <p class="para">Tata has also invested in multiple companies with his own wealth. He has invested in
+                        Snapdeal – one of
+                        India's leading e-commerce websites. In January 2016, he invested in Teabox, an online premium
+                        Indian
+                        Tea seller,and CashKaro.com, a discount coupons and cash-back website.</p>
+                    <p class="para">Ratan Tata was the interim chairman of Tata Sons. He continues to head the main two
+                        Tata trusts Sir
+                        Dorabji Tata and Allied Trusts and Sir Ratan Tata Trust and their allied trusts, with a combined
+                        stake
+                        of 66% in Tata Sons, Tata group's holding company.</p>
+                    <p class="para">He is a member of Prime Minister's 'Council on Trade and Industry' and the 'National
+                        Manufacturing
+                        Competitiveness Council'. He is on the jury panel of Pritzker Architecture Prize – considered to
+                        be one
+                        of the world's premier architecture prizes.</p>
+                    <p class="para">Tata has also received various state civilian honours like 'Maharashtra Bhushan' in
+                        2006 for his huge
+                        work in the public administration in
+                    <p class="para">Maharashtra and 'Assam Baibhav' in 2021 for his exceptional contribution towards
+                        furthering cancer care
+                        in Assam.</p>
+                </div>
+            </div>
         </div>
     </div>
 </body>
+
 </html>
